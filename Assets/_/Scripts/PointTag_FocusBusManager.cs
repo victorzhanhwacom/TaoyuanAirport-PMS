@@ -7,6 +7,7 @@ public class PointTage_FocusBusManager : MonoBehaviour
 {
     public PointTag_FocusBus[] pointTag_FocusBuses;
     public UnityEvent<Transform> OnFollowTarget;
+    public UnityEvent<bool> OnToggleInfo;
     public UnityEvent CancelFollowTarget;
 
     
@@ -15,9 +16,12 @@ public class PointTage_FocusBusManager : MonoBehaviour
         pointTag_FocusBuses = GetComponentsInChildren<PointTag_FocusBus>(true);
         foreach (var focusBus in pointTag_FocusBuses)
         {
-            focusBus.OnToggleStateChanged += HandleToggleStateChanged;
+            focusBus.OnToggleFollowTargetChanged += HandleToggleStateChanged;
+            focusBus.OnToggleInfoChanged += HandleInfoToggleStateChanged;
         }
     }
+
+    private void HandleInfoToggleStateChanged(bool isOn) => OnToggleInfo?.Invoke(isOn);
 
     private void HandleToggleStateChanged(bool isOn, Transform targetModel)
     {

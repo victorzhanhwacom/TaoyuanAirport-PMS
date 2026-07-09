@@ -4,11 +4,16 @@ using VzDev.ToolUtils;
 
 public class PointTag_FocusBus : MonoBehaviour
 {
-    public event Action<bool, Transform> OnToggleStateChanged;
+    public event Action<bool, Transform> OnToggleFollowTargetChanged;
+    public event Action<bool> OnToggleInfoChanged;
     public PointTag pointTag;
-    public void SetToggleState(bool isOn)
+    public void SetFollowTargetToggleState(bool isOn)
     {
-        OnToggleStateChanged?.Invoke(isOn, pointTag.FollowerTarget);
+        OnToggleFollowTargetChanged?.Invoke(isOn, pointTag.FollowerTarget);
+    }
+    public void SetInfoToggleState(bool isOn)
+    {
+        OnToggleInfoChanged?.Invoke(isOn);
     }
 
     private void OnValidate()

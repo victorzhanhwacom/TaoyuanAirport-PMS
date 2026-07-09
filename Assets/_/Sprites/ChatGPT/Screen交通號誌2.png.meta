@@ -166,6 +166,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: "Screen\u4EA4\u901A\u865F\u8A8C2_2"
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 551
+        width: 247
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94820eb1da5d1c74587fe1cb4d1e4fb2
+      internalID: -1421308083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -182,6 +204,7 @@ TextureImporter:
     nameFileIdTable:
       "Screen\u4EA4\u901A\u865F\u8A8C2_0": 1309100027
       "Screen\u4EA4\u901A\u865F\u8A8C2_1": -1021837456
+      "Screen\u4EA4\u901A\u865F\u8A8C2_2": -1421308083
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

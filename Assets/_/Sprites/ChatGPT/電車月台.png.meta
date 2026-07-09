@@ -131,7 +131,7 @@ TextureImporter:
         width: 1233
         height: 720
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -140,6 +140,72 @@ TextureImporter:
       bones: []
       spriteID: bd996ac65c2e7d84e998ca5acf730605
       internalID: 584089952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u96FB\u8ECA\u6708\u53F0_1"
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 904
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cb9a3f700f8354caefda419ede9f4d
+      internalID: 794314559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u96FB\u8ECA\u6708\u53F0_2"
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 903
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27620f9e77445914c819aa329909f86e
+      internalID: 309773704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u96FB\u8ECA\u6708\u53F0_3"
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 916
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034d6f0145157cb4980923f3a49d09b7
+      internalID: -1538966669
       vertices: []
       indices: 
       edges: []
@@ -159,6 +225,9 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       "\u96FB\u8ECA\u6708\u53F0_0": 584089952
+      "\u96FB\u8ECA\u6708\u53F0_1": 794314559
+      "\u96FB\u8ECA\u6708\u53F0_2": 309773704
+      "\u96FB\u8ECA\u6708\u53F0_3": -1538966669
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
